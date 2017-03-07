@@ -32,7 +32,7 @@ mkdir $installdir
 
 git clone https://github.com/therandomsecurityguy/macosx-setup.git $installdir 
 if [ ! -d $installdir ]; then
-    echo "failed to find ansible-macosx."
+    echo "failed to find macosx-setup."
     echo "git cloned failed"
     exit 1
 else
