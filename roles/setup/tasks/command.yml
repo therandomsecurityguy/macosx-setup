@@ -1,0 +1,7 @@
+# Install cmd line utils
+
+- name: install {{item}} 
+  homebrew:
+    name: "{{item}}"
+    state: latest
+

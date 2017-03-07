@@ -1,0 +1,5 @@
+# Mac setup
+
+- hosts: mac 
+  roles:
+    - setup

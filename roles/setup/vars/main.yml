@@ -1,0 +1,27 @@
+# List of apps to install
+general:
+  local_home: "{{ lookup('env','HOME') }}"
+
+# Homebrew apps
+applications:
+  - autojump
+  - git
+  - tree
+  - httpie
+  - curl
+  - wget
+  - kubectl
+  - kubernetes-helm
+  - go
+  - vim
+  - neovim
+
+# Cask apps
+cask_applications:
+  - google-chrome
+  - slack
+  - iterm2
+  - docker
+  - vagrant
+  - garmin-express
+  - virtualbox
