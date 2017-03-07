@@ -29,9 +29,15 @@ Click 'Install' and follow the prompts to the App Store to download the 'Xcode C
 
 #### Install
 
-To setup, clone this repo and run the `setup.sh` script. The script script `pip`, `ansible`, and the proceeds to run the `ansible` playbook, which installs and customizes predefined applications.
+For setup, you can run the following:
 
-If you already have ansible installed, then you can run the following:
+```
+curl -s https://raw.githubusercontent.com/therandomsecurityguy/macosx-setup/master/setup.sh | /bin/bash
+```
+
+This will install `pip`, `ansible`, and then proceeds to run the `ansible` playbook, which installs and customizes predefined applications.
+
+The other option is to install [Ansible](http://docs.ansible.com/ansible/intro_installation.html), clone the repo, and run the following playbook:
 ```
 ansible-playbook -i ./hosts playbook.yml --verbose
 ```
