@@ -2,6 +2,33 @@
 
 This is an Ansible playbook for customizing your MacOSX install.
 
+#### Dependencies
+
+You'll need the full Xcode package already installed. 
+
+To verifiy if the full Xcode package is already installed, run the following:
+
+```
+$ xcode-select -p
+```
+
+If you see the following:
+
+```
+/Applications/Xcode.app/Contents/Developer
+```
+Then the Xcode full package is installed. 
+
+To get the Xcode command line tolls installed, run the following:
+
+```
+$ xcode-select --install
+```
+Click 'Install' and follow the prompts to the App Store to download the 'Xcode Command Line Tools'.
+
+
+#### Install
+
 To setup, clone this repo and run the `setup.sh` script. The script script `pip`, `ansible`, and the proceeds to run the `ansible` playbook, which installs and customizes predefined applications.
 
 If you already have ansible installed, then you can run the following:
