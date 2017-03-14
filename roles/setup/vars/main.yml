@@ -25,3 +25,6 @@ cask_applications:
   - vagrant
   - garmin-express
   - virtualbox
+  - vlc
+  - spotify
+  - spotify-notifications
