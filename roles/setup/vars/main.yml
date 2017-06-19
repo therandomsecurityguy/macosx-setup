@@ -21,6 +21,7 @@ cask_applications:
   - google-chrome
   - slack
   - iterm2
+  - atom
   - docker
   - vagrant
   - garmin-express
