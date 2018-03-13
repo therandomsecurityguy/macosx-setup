@@ -21,6 +21,7 @@ applications:
   - grep
   - cmake
   - ffmpeg
+  - nmap
 
 # Cask apps
 cask_applications:
