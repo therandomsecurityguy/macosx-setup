@@ -16,6 +16,11 @@ applications:
   - vim
   - neovim
   - blast
+  - lastpass-cli
+  - terraform
+  - grep
+  - cmake
+  - ffmpeg
 
 # Cask apps
 cask_applications:
