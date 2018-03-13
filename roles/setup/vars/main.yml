@@ -15,6 +15,7 @@ applications:
   - go
   - vim
   - neovim
+  - blast
 
 # Cask apps
 cask_applications:
