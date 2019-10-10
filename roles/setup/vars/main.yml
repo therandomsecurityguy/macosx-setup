@@ -14,7 +14,6 @@ applications:
   - kubernetes-helm
   - go
   - vim
-  - neovim
   - blast
   - lastpass-cli
   - terraform
@@ -25,14 +24,13 @@ applications:
 
 # Cask apps
 cask_applications:
-  - google-chrome
-  - slack
-  - iterm2
   - atom
-  - docker
-  - vagrant
-  - garmin-express
-  - virtualbox
-  - vlc
+  - brave-browser
+  - minikube
+  - slack
   - spotify
   - spotify-notifications
+  - vagrant
+  - virtualbox
+  - visual-studio-code
+  - vlc
