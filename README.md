@@ -1,6 +1,6 @@
-### Setting Up Your MAC with Ansible
+### MAC setup with Ansible
 
-This is an Ansible playbook for customizing your MacOSX install.
+This is an Ansible playbook for customizing your MacOSX install or for when you are like me and nuke a laptop every couple of years.
 
 #### Dependencies
 
@@ -19,7 +19,7 @@ If you see the following:
 ```
 Then the Xcode full package is installed. 
 
-To get the Xcode command line tolls installed, run the following:
+To get the Xcode command line tools installed, run the following:
 
 ```
 $ xcode-select --install
