@@ -5,28 +5,36 @@ general:
 # Homebrew apps
 applications:
   - autojump
-  - git
-  - tree
-  - httpie
+  - bitwarden-cli
+  - blast
+  - cmake
   - curl
-  - wget
+  - ffmpeg
+  - gcc
+  - git
+  - go
+  - gnupg
+  - grep
+  - handbrake
+  - httpie
+  - jq
   - kubectl
   - kubernetes-helm
-  - go
-  - vim
-  - blast
-  - lastpass-cli
-  - terraform
-  - grep
-  - cmake
-  - ffmpeg
   - nmap
+  - terraform
+  - tree
+  - vim
+  - wget
 
 # Cask apps
 cask_applications:
   - atom
   - brave-browser
+  - google-cloud-sdk
+  - mactex
   - minikube
+  - postman
+  - signal
   - slack
   - spotify
   - spotify-notifications
