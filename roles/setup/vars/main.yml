@@ -17,6 +17,7 @@ applications:
   - grep
   - handbrake
   - httpie
+  - hugo
   - jq
   - kubectl
   - kubernetes-helm
