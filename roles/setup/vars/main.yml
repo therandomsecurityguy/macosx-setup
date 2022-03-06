@@ -31,6 +31,7 @@ applications:
 cask_applications:
   - atom
   - brave-browser
+  - finicky
   - google-cloud-sdk
   - mactex
   - minikube
