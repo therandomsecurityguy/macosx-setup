@@ -22,6 +22,7 @@ applications:
   - kubectl
   - kubernetes-helm
   - nmap
+  - poetry
   - terraform
   - tree
   - vim
